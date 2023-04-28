@@ -1,8 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sigmar&display=swap');
+
+.headsy {
+  font-family: 'Lobster', cursive;
+}
+
+.red {
+  color: #d81818;
+}
+
 /* For the space between fixed navbar and body */
+nav {
+  background: #217e1a;
+}
+
+body {
+  background: linear-gradient(#217e1a, #217e1a);
+}
+
 body::before {
   display: block;
   content: '';
   height: 60px;
+  background: linear-gradient(#217e1a, #217e1a);
+}
+
+body::after {
+  background: linear-gradient(#175612, #217e1a);
 }
 
 @media (min-width: 768px) {
